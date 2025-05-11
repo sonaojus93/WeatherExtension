@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serendipity Engine</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="contextualNudgeMessage" class="contextual-nudge">
+        </div>
+        <h1 class="title">Serendipity Engine</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search your visited pages..." class="search-input">
+            <button id="searchButton" class="search-button">Search</button>
+        </div>
+        <div id="resultsContainer" class="results-container">
+            <p class="no-results">No results yet. Start browsing or try a search!</p>
+        </div>
+        <button id="clearHistoryButton" class="clear-button">Clear History</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
