@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "types": [
+            "chrome"
+        ]
+    },
+    "include": [
+        "src",
+        "types"
+    ]
+}

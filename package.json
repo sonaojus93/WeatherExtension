@@ -1,0 +1,36 @@
+{
+  "name": "weatherextension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonaojus93/WeatherExtension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonaojus93/WeatherExtension/issues"
+  },
+  "homepage": "https://github.com/sonaojus93/WeatherExtension#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/chrome": "^0.0.322",
+    "@types/node": "^22.15.17",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "webextension-polyfill": "^0.12.0",
+    "webextension-polyfill-ts": "^0.26.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
