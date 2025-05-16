@@ -1,0 +1,14 @@
+{
+    "name": "My Web App",
+    "short_name": "WebApp",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "A simple web app extension.",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage",
+        "activeTab"
+    ]
+}

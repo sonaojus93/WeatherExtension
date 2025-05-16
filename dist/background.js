@@ -1,1 +1,0 @@
-import{b as e}from"./assets/browser-polyfill-DMmbowld.js";e.runtime.onInstalled.addListener(()=>{console.log("Extension installed!")});e.runtime.onMessage.addListener((s,t,n)=>(s.action==="click"&&(console.log("Button clicked!"),n({status:"success"})),!0));
