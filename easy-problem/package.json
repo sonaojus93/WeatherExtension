@@ -1,8 +1,8 @@
 {
-  "name": "plasmo-project",
-  "displayName": "Plasmo project",
+  "name": "easy-problem",
+  "displayName": "Easy problem",
   "version": "0.0.1",
-  "description": "Basic Plasmo Extension",
+  "description": "Easy Question",
   "author": "Sona Ojus",
   "scripts": {
     "dev": "plasmo dev",
@@ -24,11 +24,11 @@
     "typescript": "5.3.3"
   },
   "manifest": {
+    "permissions": [
+      "contextMenus"
+    ],
     "host_permissions": [
       "https://*/*"
-    ],
-    "permissions": [
-      "tabs"
     ]
   }
 }
